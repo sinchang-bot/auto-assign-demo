@@ -1,3 +1,3 @@
 # auto-assign-demo
 
-:)
+:) :)
