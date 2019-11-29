@@ -1,5 +1,6 @@
 name: "Assign Reviewers"
 on:  
+  push:
   pull_request:
     types: [opened, ready_for_review]
      
