@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: "Assign Team and Persons"
-      uses: sinchang-bot/auto-assign-review-teams@master
+      uses: rowi1de/auto-assign-review-teams@v0.0.5
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        teams: ""     # only works for GitHub Organisation/Teams
+        teams: "no-team"     # only works for GitHub Organisation/Teams
         persons: "knewzen"          # add individual persons here
